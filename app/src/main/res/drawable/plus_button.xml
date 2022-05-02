@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/colorAccent">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/colorGrayD1"/>
+                </shape>
+            </item>
+
+            <item
+                    android:drawable="@drawable/ic_plus"
+                    android:top="15dp"
+                    android:right="15dp"
+                    android:bottom="15dp"
+                    android:left="15dp"/>
+        </layer-list>
+    </item>
+</ripple>

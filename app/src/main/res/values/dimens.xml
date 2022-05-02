@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xxxl_text">20sp</dimen>
+    <dimen name="xxl_text">18sp</dimen>
+    <dimen name="xl_text">17sp</dimen>
+    <dimen name="l_text">16sp</dimen>
+    <dimen name="xxm_text">15sp</dimen>
+    <dimen name="xm_text">14sp</dimen>
+    <dimen name="m_text">13sp</dimen>
+    <dimen name="s_text">12sp</dimen>
+    <dimen name="xs_text">11sp</dimen>
+    <dimen name="xxs_text">10sp</dimen>
+    <dimen name="xxxs_text">9sp</dimen>
+    <dimen name="xxxxs_text">8sp</dimen>
+    <dimen name="profile_width">36.42dp</dimen>
+    <dimen name="profile_height">36.42dp</dimen>
+    <dimen name="root_space">20dp</dimen>
+    <dimen name="card_corner_radius">5dp</dimen>
+
+</resources>

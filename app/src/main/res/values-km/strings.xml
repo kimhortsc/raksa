@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY app_name "RAKSA"><!ENTITY app_name_driver "RAKSA អ្នកដឹកជញ្ជូន">]>
+
+<resources>
+    <string name="total_earning">ប្រាក់ចំណូលសរុប</string>
+    <string name="commission_payable">ប្រាក់ត្រូវបង់</string>
+    <string name="app_name_driver">&app_name_driver;</string>
+    <string name="app_name">&app_name;</string>
+    <string name="app_motor">ធានាថាកញ្ចប់របស់អ្នកនឹងត្រូវបានផ្ញើដោយរហ័ស មានអនាម័យ សុវត្ថិភាព និងអាចទុកចិត្ត</string>
+    <string name="loading">កំពុងដំណើរការ</string>
+    <string name="next">បន្ទាប់</string>
+    <string name="required">ត្រូវតែបញ្ចូល</string>
+    <string name="failed_with_error_code">ប្រតិបត្តិការណ៍បានបរាជ័យ។ លេខកូដ </string>
+    <string name="khr">រៀល</string>
+    <string name="km">គ.ម</string>
+    <string name="ok">យល់ព្រម</string>
+    <string name="file_can_not_load">ឯកសារមិនអាចបើកបាន</string>
+    <string name="file_size_is_too_large">ទំហំឯកសារធំពេក</string>
+    <string name="something_went_wrong_please_try_again">ប្រព័ន្ធមានភាពមិនប្រក្រតី។ សូមព្យាយាមម្ដងទៀត។</string>
+    <string name="section_expired">សុពលភាពប្រើប្រាស់បានផុតកំណត់. សូមចូលក្នុងប្រព័ន្ធម្ដងទៀត</string>
+    <string name="device_cant_identify">មិនអាចកំណត់អត្តសញ្ញាណឧបករណ៍បានទេ។ សូមព្យាយាមតម្លើងកម្មវិធីម្ដងទៀត។ ប្រសិនបើអ្នកនៅតែជួបប្រទះបញ្ហាដដែល សូមទាក់ទងមកការិយាល័យផ្ដល់ព័ត៌មានរបស់យើងខ្ញុំ។ </string>
+    <string name="offline">ការតភ្ជាប់មិនទទួលជោគជ័យ</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="copyright">ឆ្នាំ ២០២០ © រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ &app_name;</string>
+
+    <!--    bottom navigation bar-->
+    <string name="home">ទំព័រដើម</string>
+    <string name="summary">សង្ខេប</string>
+    <string name="profile">គណនី</string>
+
+    <!--    location permission-->
+    <string name="location_permission_reason">&app_name; ត្រូវការព័ត៌ទីតាំងរបស់អ្នក ដូច្នេះ&app_name;អាចចាត់តាំងឱ្យអ្នកនូវការដឹកជញ្ជូនថ្មីៗ</string>
+    <string name="location_service_disabled">សេវាកម្មទីតាំងត្រូវបានបិទ</string>
+    <string name="enable_location_service">បើកសេវាកម្មទីតាំង</string>
+
+    <!--    login, enter phone number-->
+    <string name="hello_there">សួស្តី,</string>
+    <string name="enter_your_phone_number">សូមបញ្ចូលលេខទូរស័ព្ទរបស់អ្នក</string>
+    <string name="phone">លេខទូរស័ព្ទ</string>
+    <string name="seems_like_not_a_valid_phone">លេខទូរស័ព្ទមិនត្រឹមត្រូវ</string>
+    <string name="phone_number_require">លេខទូរស័ព្ទត្រូវតែបញ្ចូល</string>
+    <string name="invalid_phone_number">លេខទូរស័ព្ទមិនត្រឹមត្រូវ</string>
+    <string name="verification_completed_successfully">ការផ្ទៀងផ្ទាត់ត្រូវបានបញ្ចប់ដោយជោគជ័យ</string>
+
+    <!--    login, enter authentication code-->
+    <string name="authentication">ការផ្ទៀងផ្ទាត់</string>
+    <string name="not_seeing_the_code">មិនឃើញលេខកូដសម្ងាត់?</string>
+    <string name="a_verification_code_has_been_sent_to">យើងខ្ញុំបានផ្ញើលេខកូដសម្ងាត់ដែលប្រើបានតែមួយដងទៅលេខទូរស័ព្ទរបស់អ្នក</string>
+    <string name="click_here"><u>ចុចទីនេះ</u></string>
+    <string name="pin_is_missing">មិនមានលេខកូដសម្ងាត់</string>
+    <string name="agree_with_system_agreement"><u><b>កំណត់សម្គាល់:</b></u>  ដោយការប៉ះទៅលើប៉ូតុង \"បន្ត\" អ្នកបានយល់ព្រមលើគោលការណ៍ទិន្នន័យ, គោលការណ៍ភាពឯកជន និងល័ក្ខខ័ណ្ឌនៃសេវាកម្មរបស់ &app_name;។</string>
+    <string name="phone_number_hint">+855000000000</string>
+    <string name="continue_bt">បន្ត</string>
+
+    <!--    pending activity-->
+    <string name="pending_message">ឯកសាររបស់អ្នកកំពុងត្រូវបានត្រួតពិនិត្យដោយក្រុមការងារការិយាល័យកណ្ដាល <b>&app_name;</b>។ យើងនឹងផ្ដល់ដំណឹង ជូនអ្នកពេលដែលរួចរាល់។ អរគុណសម្រាប់ការរង់ចាំ</string>
+    <string name="visit_our_website">ចូលមើលគេហទំព័ររបស់យើង</string>
+
+    <!--    register [basic info]-->
+    <string name="basic_information">ព័ត៌មានមូលដ្ឋាន</string>
+    <string name="name">ឈ្មោះ</string>
+    <string name="first_name">នាមខ្លួន</string>
+    <string name="last_name">នាមត្រកូល</string>
+    <string name="email">សារអេឡិចត្រូនិច</string>
+    <string name="hint_email">someone@example.com</string>
+    <string name="optional">(អាចមាន ឬ គ្មាន)</string>
+    <string name="change_phone_number">ប្ដូរលេខទូរស័ព្ទ</string>
+    <string name="please_select_your_picture">សូមជ្រើសរើសរូបភាពរបស់អ្នក</string>
+    <string name="first_name_require">នាមខ្លួនត្រូវតែបញ្ចូល</string>
+    <string name="last_name_require">នាមត្រកូលត្រូវតែបញ្ចូល</string>
+    <string name="gender">ភេទ</string>
+    <string-array name="genders">
+        <item>"ប្រុស"</item>
+        <item>"ស្រី"</item>
+        <item>"ផ្សេងៗ"</item>
+    </string-array>
+
+    <!--    register [driver detail]-->
+    <string name="register">ចុះឈ្មោះ</string>
+    <string name="national_id_number">លេខអត្តសញ្ញាណប័ណ្ណ</string>
+    <string name="national_id">អត្តសញ្ញាណប័ណ្ណ</string>
+    <string name="vehicle">យានយន្ត</string>
+    <string name="type">ប្រភេទយានយន្ត</string>
+    <string name="model">ម៉ូឌែល</string>
+    <string name="vehicle_plate_issue_location">ទីតាំងចុះបញ្ជីយានយន្ត</string>
+    <string name="vehicle_plate_number">ផ្លាកលេខ</string>
+    <string name="address">អាសយដ្ឋាន</string>
+    <string name="province_city">ខេត្ត/ក្រុង</string>
+    <string name="upload_file">បញ្ចូលរូបភាព</string>
+    <string name="vehicle_registration">ការចុះបញ្ជីយានយន្ត</string>
+    <string name="hint_id_number">000000000</string>
+    <string name="present_address">អាសយដ្ឋាន</string>
+    <string name="hint_plate_number">Eg: 1AA-9999</string>
+    <string name="hint_address">#លេខផ្លូវ, លេខផ្ទះ, …</string>
+    <string name="please_insert_valid_id_card_num">សូមមេត្តាបញ្ចូលលេខអត្តសញ្ញាណប័ណ្ណ</string>
+    <string name="hint_plate_number_required">ផ្លាកលេខយានយន្តត្រូវតែបញ្ចូល. ឧទាហរណ៍ 1AB-9999</string>
+    <string name="it_should_be_a_letter">គួរតែជាអក្សរ</string>
+
+    <!--    register [upload document]-->
+    <string name="upload_your_document">បញ្ចូលឯកសាររបស់អ្នក</string>
+    <string name="cambodian_id_card_picture">រូបភាព អត្តសញ្ញាណប័ណ្ណសញ្ជាតិខ្មែរ</string>
+    <string name="done">រួចរាល់</string>
+    <string name="register_failed">ការចុះឈ្មោះបានបរាជ័យ។ សូមព្យាយាមម្ដងទៀត</string>
+
+    <!--    main [header view]-->
+    <string name="estimated_earning">ប្រាក់ចំណូល</string>
+    <string name="busy">រវល់</string>
+    <string name="active">សកម្ម</string>
+    <string name="failed_to_join_active_drivers">បានបរាជ័យក្នុងការចូលជាអ្នកដឹកជញ្ជូនសកម្ម</string>
+    <string name="location_rationale">&app_name; ត្រូវការការអនុញ្ញាតពីអ្នក ដើម្បីចូលប្រើទីតាំងរបស់អ្នក</string>
+    <string name="understand">យល់ហើយ</string>
+    <string name="connection_problem">ប្រតិបត្តិការបានបរាជ័យ។ បញ្ហាការតភ្ជាប់</string>
+
+    <!--    main [home]-->
+    <string name="free">ទំនេរ</string>
+    <string name="swipe_to_complete">អូសឡើងដើម្បីបំពេញការងារ</string>
+    <string name="wrong_state_cannot_update_delivery">ខុសតំណាក់កាល។ ការដឹកជញ្ជូនមិនអាចធ្វើបច្ចុប្បន្នភាពបានទេ</string>
+
+    <!--    main [order task list]-->
+    <string name="call_recipient">ហៅអ្នកទទួល</string>
+    <string name="call_sender">ហៅអ្នកផ្ញើរ</string>
+    <string name="delivery_id">លេខសម្គាល់ការដឹកជញ្ជូន</string>
+    <string name="navigation">រុករក</string>
+
+    <!--    main [summary]-->
+    <string name="list_is_empty">គ្មានទិន្ទន័យ</string>
+    <string name="rating">ការវាយតម្លៃ</string>
+    <string name="balance">សមតុល្យ</string>
+    <string name="date">កាលបរិច្ឆេទ</string>
+    <string name="invalid_date">កាលបរិច្ឆេទមិនត្រឹមត្រូវ</string>
+    <string name="recipient_address">អាស័យដ្ឋានអ្នកទទួល</string>
+    <string name="today">ថ្ងៃនេះ</string>
+    <string name="last_seven_days">៧ថ្ងៃចុងក្រោយ</string>
+    <string name="others">ផ្សេងទៀត</string>
+
+    <!--    main [summary]-->
+    <string name="payment_method">\ វិធីសាស្រ្តទូទាត់</string>
+    <string name="service_type">ប្រភេទសេវាកម្ម</string>
+    <string name="cash">សាច់ប្រាក់</string>
+    <string name="instant_delivery">ការដឹកជញ្ជូនភ្លាមៗ</string>
+    <string name="receipt">បង្កាន់ដៃ</string>
+    <string name="service_fee">ថ្លៃសេវា</string>
+    <string name="promotion">បញ្ចុះតំលៃ</string>
+    <string name="total_fare">ថ្លៃសរុប</string>
+    <string name="earning_summary">សង្ខេបប្រាក់ចំណូល</string>
+    <string name="transaction">ប្រតិបត្តិការ</string>
+    <string name="promo_rebursement">សំណងបញ្ចុះតំលៃ</string>
+    <string name="commission_to_system">ប្រាក់ត្រូវកាត់</string>
+    <string name="net_earning">ប្រាក់ចំណេញ</string>
+    <string name="wallet">កាបូបលុយ</string>
+
+    <!--    main [profile]-->
+    <string name="agent_profile">ព័ត៌មានភ្នាក់ងារ</string>
+    <string name="driver_id">លេខសម្គាល់ភ្នាក់ងារ</string>
+    <string name="vehicle_type">ប្រភេទយានយន្ត</string>
+    <string name="vehicle_model">ម៉ូឌែលយានយន្ត</string>
+    <string name="setting">កំណត់</string>
+    <string name="language">ភាសា</string>
+    <string name="currency">រូបិយប័ណ្ណ</string>
+    <string name="ringing">រោទិ៍</string>
+    <string name="vibrate">ញ័រ</string>
+    <string name="logout">ចាកចេញ</string>
+    <string name="driver_type">ប្រភេទអ្នកដឹកជញ្ជូន</string>
+
+    <!--    new order-->
+    <string name="incoming_request">សំណើដឹកជញ្ជូន................</string>
+    <string name="accept">ទទួល</string>
+    <string name="reject">បដិសេធ</string>
+    <string name="deliver_from">ទទួលទំនិញ</string>
+    <string name="delivery_cancelled">ការដឹកជញ្ជូនត្រូវបានលុបចោល</string>
+    <string name="current_delivery_has_been_cancelled_by_user">ការដឹកជញ្ជូនបច្ចុប្បន្នត្រូវបានលុបចោលដោយអតិថិជន។</string>
+    <string name="why_i_get_this_message">ហេតុអ្វីទើបខ្ញុំទទួលបានសារនេះ?</string>
+
+    <!--    destination alert dialog-->
+    <string name="you_have_reached_the_destination">អ្នកបានមកដល់គោលដៅហើយ!</string>
+    <string name="pickup">យកអីវ៉ាន់</string>
+    <string name="drop_off">ប្រគល់អីវ៉ាន់</string>
+    <string name="call">ហៅ</string>
+    <string name="tel">ទូរស័ព្ទ:</string>
+
+    <!--    service-->
+    <string name="driver_location_tracking">សេវាកម្មតាមដានទីតាំងរបស់អ្នកបើកបរ</string>
+    <string name="location_tracking">តាមដានទីតាំង</string>
+    <string name="driver_state">ស្ថានភាពអ្នកបើកបរ:</string>
+    <string name="location_tracking_service_is_running">សេវាកម្មតាមដានទីតាំងកំពុងដំណើរការ</string>
+    <string name="notification_for_new_delivery">ការជូនដំណឹងសម្រាប់ការដឹកជញ្ជូនថ្មី</string>
+    <string name="leave">ចាកចេញ</string>
+    <string name="you_are_here">ទីតាំងរបស់អ្នក</string>
+    <string name="next_destination">គោលដៅបន្ទាប់</string>
+    <string name="app_need_to_access_your_location">&app_name; ត្រូវការប្រើប្រាស់ទីតាំងរបស់អ្នក។ សូមបើកសេវាកម្មទីតាំងរបស់អ្នក</string>
+    <string name="complete_this_action_with">បំពេញសកម្មភាពនេះជាមួយ</string>
+    <string name="rationale_location_premission">&app_name; ត្រូវការព័ត៌ទីតាំងរបស់អ្នក ដូច្នេះ&app_name;អាចចាត់តាំងឱ្យអ្នកនូវការដឹកជញ្ជូនថ្មីៗ</string>
+
+    <!--    navigation-->
+    <string name="delivery_completed">ការដឹកជញ្ជូនបានបំពេញរួចរាល់</string>
+
+    <!--    language dialog-->
+    <string name="select_your_language">ជ្រើសរើសភាសារបស់អ្នក</string>
+    <string name="khmer">ភាសាខ្មែរ</string>
+    <string name="english">English</string>
+
+    <!--    logout dialog-->
+    <string name="do_you_really_want_to_logout">អ្នកពិតជាចង់ចាក់ចេញមែនឬ?</string>
+    <string name="no">ទេ</string>
+    <string name="deliveyman_acc_with_this_phone_number_has_been_deactivated">គណនីអ្នកដឹកជញ្ជូនដែលមានលេខទូរស័ព្ទនេះត្រូវបានធ្វើឱ្យអសកម្ម។ សម្រាប់ព័ត៌មានបន្ថែម សូមទាក់ទងទៅកាន់ផ្នែកជំនួយរបស់ &app_name;</string>
+    <string name="profile_picture">រូបថតសែលហ្វីរបស់អ្នក</string>
+    <string name="please_file_to_upload">សូមបញ្ចូលរូបភាព។ ព័ត៌មានទាំងអស់ត្រូវតែបញ្ចូល</string>
+    <string name="riel">រៀល</string>
+    <string name="you_are_about_to_reject_the_delivery">បដិសេធសំណើដឹកជញ្ជូននេះ</string>
+    <string name="back">ថយក្រោយ</string>
+    <string name="operation_failed_currently_have_delivery">មិនអាចបិតសេវាកម្មតាមដានបានទេ ក្នុងពេលដឹកទំនិញ។</string>
+    <string name="press_again_to_exit">ប៉ះម្ដងទៀតដើម្បីចាកចេញ</string>
+    <string name="firebase_too_many_requests">សំណើរត្រូវបដិសេឌ ដោយសារអ្នកបានធ្វើសំណើច្រើនពេក។ សូមព្យាយាមម្តងទៀតក្នុងរយៈពេលពីរបីម៉ោងទៀត</string>
+    <string name="app_unthorized_to_firebase">មិនអាចកំណត់អត្តសញ្ញាណកម្មវិធីបានទេ។ ត្រូវប្រាកដថាអ្នកមិនមែនកំពុងដំណើរការ កម្មវិធីនៅលើឧបករណ៍និម្មិត</string>
+    <string name="phone_login_failed_please_try_again">លេខទូរស័ព្ទមិនអាចផ្ទាងផ្ទាត់បាន។ សូមព្យាយាមម្ដងទៀត</string>
+    <string name="map">ផែនទី</string>
+    <string name="recipient_info">ព័ត៌មានអតិថិជន</string>
+    <string name="report_issue">រាយការណ៍បញ្ហា</string>
+    <string name="call_back_office">ហៅទៅការិយាល័យ</string>
+    <string name="comment">មតិផ្សេងៗ</string>
+    <string name="predefine_issue">បញ្ហា</string>
+    <string name="please_select_issue">សូមជ្រើរើសបញ្ហា</string>
+    <string name="cant_load_predefined_issue">មិនអាចទាញយកបញ្ជីបញ្ហាបានទេ</string>
+    <string name="issue_has_been_sent_successfully">បញ្ហាត្រូវបានបញ្ជូនទៅការិយាល័យដោយជោជ័យ។​សូមមេត្តារងចាំ</string>
+    <string name="issue_cant_send">បញ្ហាមិនអាចបញ្ជូនទៅការិល័យបានទេ សូមព្យាយាមម្ដងទៀត</string>
+    <string name="schedule_delivery">ការដឹងជញ្ជូនតាមកាលវិភាគ</string>
+    <string name="data_sync_failed">ការធ្វើបច្ចុប្បន្នភាពទិន្នន័យមានបញ្ហា។ កម្មវិធីអាចតំណើរការមិនប្រក្រដី</string>
+    <string name="back_office_info_is_not_available">មិនមានព័ត៌មានរបស់ការិយាល័យកណ្ដាលទេ។ សូមព្យាយាមម្ដងទៀត។</string>
+    <string name="second">វិនាទី</string>
+    <string name="id">(ID)</string>
+    <string name="form_can_not_load_please_try_again">មិនអាចទាញយកទិន្នន័យបានទេ។ សូមព្យាយាមម្ដងទៀត</string>
+    <string name="try_again">ព្យាយាមម្ដងទៀត</string>
+    <string name="connection_reset">ត្រូវបានតភ្ជាប់ឡើងវិញ</string>
+    <string name="away_from_your_destination">ពីគោលដៅរបស់អ្នក</string>
+    <string name="collect_money">ប្រមូលលុយ</string>
+    <string name="check_status">ពិនិត្យស្ថានភាព</string>
+    <string name="your_application_has_been_rejected">ពាក្យសុំរបស់អ្នកត្រូវបានបដិសេធ។ សូមទាក់ទងមជ្ឈមណ្ឌលជំនួយរបស់យើងសម្រាប់ព័ត៌មានបន្ថែម</string>
+    <string name="invalid_respond_from_the_server">ទទួលបានការឆ្លើយតបមិនប្រក្រតីពី Server </string>
+    <string name="sucess">ជោគជ័យ</string>
+    <string name="description">ពិពណ៌នា</string>
+    <string name="deliver">Deliver</string>
+
+    <string name="packages">Packages</string>
+    <string name="on_going">Ongoing</string>
+    <string name="number_package">No. Packages</string>
+    <string name="recents">Recents</string>
+    <string name="detail">Detail</string>
+    <string name="contact_number">Contact number:</string>
+    <string name="pickup_time">Pickup time</string>
+    <string name="item_price">Item Price:</string>
+    <string name="receiver_info">Receiver Info</string>
+    <string name="package_info">Package Info</string>
+    <string name="item_type">Item Type:</string>
+    <string name="zone_code">Zone Code :</string>
+    <string name="zone_name">Zone Name:</string>
+    <string name="mark_as_finish">Mark as finish</string>
+    <string name="status">Status:</string>
+    <string name="select_a_date">ជ្រើសរើសថ្ងៃ</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="transaction_id">Transaction ID</string>
+    <string name="transaction_type">Transaction type</string>
+    <string name="remark">Remark</string>
+    <string name="delivery_transaction">Delivey Transactions</string>
+    <string name="sharedPreferences">shapre_preference</string>
+
+</resources>

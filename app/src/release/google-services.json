@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "764305066374",
+    "firebase_url": "https://raksa-platform-driver.firebaseio.com",
+    "project_id": "raksa-platform-driver",
+    "storage_bucket": "raksa-platform-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764305066374:android:4d5de9472d4d84ebd20407",
+        "android_client_info": {
+          "package_name": "center.techostartup.raksa.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764305066374-b9n6s05oq1u617jct3mej242bfhd6fg0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2TCxrszvwqVcSYjHOLvjQvygQtljn9uY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764305066374-b9n6s05oq1u617jct3mej242bfhd6fg0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

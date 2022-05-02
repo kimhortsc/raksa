@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="riel_money_pattern" translatable="false">###,###,###</string>
+    <string name="date_time_12hour" translatable="false">dd/MMM/yyyy, hh:mmaaa</string>
+
+    <declare-styleable name="AutoFitView">
+        <attr name="weight_compare_to_parent" format="float" />
+    </declare-styleable>
+</resources>

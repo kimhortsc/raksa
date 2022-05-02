@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/debug/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/drawable/ic_app_raksa_logo_primary.xml" value="0.176" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/drawable/ic_app_raksa_logo_primary_64dp.xml" value="0.303" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/drawable/ic_app_raksa_logo_white.xml" value="0.303" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/drawable/ic_app_raksa_logo_white_64dp.xml" value="0.303" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/drawable/ic_logout_primary.xml" value="0.303" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/drawable/ic_logout_white.xml" value="0.303" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/drawable/ic_new_logo.xml" value="0.303" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/drawable/ic_phone_incoming_call.xml" value="0.1455" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/activity_navigation.xml" value="0.2484375" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/destination_alert_dialog.xml" value="0.240625" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/dialog_general.xml" value="0.240625" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/fragment_header.xml" value="0.25" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/fragment_home.xml" value="0.4" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/fragment_phone_auth_code.xml" value="0.3194444444444444" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/fragment_phone_auth_input_phone.xml" value="0.264" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/fragment_profile.xml" value="0.21145833333333333" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/fragment_summary.xml" value="0.2" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/fragment_task_summary_detail.xml" value="0.19739583333333333" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/fragment_wallet_summary.xml" value="0.22916666666666666" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/item_history.xml" value="0.3641304347826087" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/summary_item_layout.xml" value="1.6" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/transaction_detail_dialog_layout.xml" value="0.536" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/transaction_history_item_layout.xml" value="0.19739583333333333" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/layout/view_task_item.xml" value="0.4" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.319" />
+        <entry key="..\:/Raksa/lastest_github/Raksa-Android-Driver/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.319" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/debug/res/layout/activity_splash_screen.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/debug/res/layout/fragment_driver_profile.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/debug/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/debug/res/layout/fragment_summary.xml" value="0.18" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/drawable/bg_otp_item.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/layout/activity_delivery_package_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/layout/activity_delivery_package_detail_completed.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/layout/activity_navigation.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/layout/activity_otp_verification.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/layout/activity_phone_number_login.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/layout/custom_dialog_loading.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/Administrator/Desktop/Android/Raksa-Android-Driver/app/src/main/res/menu/bottom_navigation_items.xml" value="0.1" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/activity_navigation.xml" value="0.2734375" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/activity_report_order_issue.xml" value="0.18645833333333334" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/bottom_sheet_report_issue.xml" value="0.2734375" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/dialog_user_cancelled_order.xml" value="0.20260416666666667" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/fragment_home.xml" value="0.15364583333333334" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/fragment_package_deliver.xml" value="0.24583333333333332" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/fragment_package_pickup.xml" value="0.24583333333333332" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/fragment_packages.xml" value="0.24583333333333332" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/fragment_summary.xml" value="0.3812549642573471" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/layout/fragment_task_summary_detail.xml" value="0.15364583333333334" />
+        <entry key="..\:/development/raksa-android-driver-app/app/src/main/res/menu/bottom_navigation_items.xml" value="0.4" />
+        <entry key="app/src/main/res/layout/activity_delivery_package_detail.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/activity_delivery_package_detail_completed.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/activity_new_order_alert.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_pickup_packages_detail.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/bottom_sheet_report_issue.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/destination_alert_dialog.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/destination_item_01.xml" value="0.2734375" />
+        <entry key="app/src/main/res/layout/dialog_confirm_log_out.xml" value="0.2734375" />
+        <entry key="app/src/main/res/layout/dialog_general.xml" value="0.2734375" />
+        <entry key="app/src/main/res/layout/dialog_general_safe_call.xml" value="0.14055601730592807" />
+        <entry key="app/src/main/res/layout/dialog_language_selection.xml" value="0.2734375" />
+        <entry key="app/src/main/res/layout/dialog_loading.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/dialog_recipient_detailt.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/dialog_user_cancelled_order.xml" value="0.2734375" />
+        <entry key="app/src/main/res/layout/fragment_balance.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_header.xml" value="0.45" />
+        <entry key="app/src/main/res/layout/fragment_package_deliver.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_package_pickup.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_packages.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_phone_auth_code.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/fragment_task_summary_detail.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/item_destination_item.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/transaction_detail_dialog_layout.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/transaction_history_item_layout.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/view_custom_gmap_infowindow.xml" value="0.3890625" />
+        <entry key="app/src/main/res/layout/view_task_item.xml" value="0.3890625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
