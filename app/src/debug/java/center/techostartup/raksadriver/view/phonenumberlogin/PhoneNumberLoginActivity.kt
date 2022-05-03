@@ -39,6 +39,10 @@ class PhoneNumberLoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        auth = FirebaseAuth.getInstance()
+        loadingDialog = LoadingDialog(this)
+
         setContentView(R.layout.activity_phone_number_login)
 
         val sendOtp = findViewById<Button>(R.id.btn_send_otp)

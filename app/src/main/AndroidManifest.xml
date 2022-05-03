@@ -25,27 +25,31 @@
             tools:replace="android:label"
             tools:targetApi="n">
 
-        <meta-data
-                android:name="com.google.android.maps.v2.API_KEY"
-                android:value="@string/google_maps_key" />
+        <activity
+                android:name="center.techostartup.raksadriver.view.phonenumberlogin.PhoneNumberLoginActivity"
+                android:exported="false" />
+        <activity
+                android:name="center.techostartup.raksadriver.view.main.MainActivity"
+                android:exported="false" />
 
         <activity
-                android:name=".view.phonenumberlogin.PhoneNumberLoginActivity"
-                android:exported="false">
+                android:theme="@style/SplashTheme"
+                android:name="center.techostartup.raksadriver.view.loading.LoadingActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity
                 android:name=".view.otpverification.OtpVerificationActivity"
                 android:exported="false" />
 
-        <activity
-                android:name=".view.main.MainActivity"
-                android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <meta-data
+                android:name="com.google.android.maps.v2.API_KEY"
+                android:value="@string/google_maps_key" />
 
         <meta-data
                 android:name="com.google.android.gms.version"

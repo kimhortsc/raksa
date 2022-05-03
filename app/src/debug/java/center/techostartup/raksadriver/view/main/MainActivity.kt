@@ -21,18 +21,12 @@ import center.techostartup.raksadriver.view.home.HomeFragment
 import center.techostartup.raksadriver.view.phonenumberlogin.PhoneNumberLoginActivity
 import center.techostartup.raksadriver.view.summary.SummaryFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import kotlinx.coroutines.DelicateCoroutinesApi
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
     private lateinit var selectedFragment: Fragment
-
-
 
     private var homeFragment: HomeFragment? = null
     private var summaryFragment: SummaryFragment? = null
@@ -44,72 +38,16 @@ class MainActivity : AppCompatActivity() {
     private lateinit var driver: Driver
     private var bundle = Bundle()
 
-   // late init var driverViewModel: DriverViewModel
-
-    @OptIn(DelicateCoroutinesApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        installSplashScreen()
-
-        refreshToken()
-
         homeFragment = HomeFragment()
         bnvMain = findViewById(R.id.bnv_main)
         progressBar = findViewById(R.id.progressBar)
-    }
 
-
-    private fun refreshToken(){
-        val sharedPreference = AppSharedPreference(application)
-        val refreshToken = sharedPreference.get(AppConstants.REFRESH_TOKEN)
-        val call = TokenRepository.refreshToken(application, RefreshTokenRequest(refreshToken))
-
-//        val execute = call.execute()
-//
-//        if(execute.code() != 401){
-//            val newToken = call.execute().body()
-//
-//            newToken?.refresh?.let { sharedPreference.insert(AppConstants.REFRESH_TOKEN, it) }
-//            newToken?.access?.let { sharedPreference.insert(AppConstants.ACCESS_TOKEN, it) }
-//
-//            fetchDriver()
-//
-//        } else {
-//            val intent = Intent(this@MainActivity, PhoneNumberLoginActivity::class.java)
-//            startActivity(intent)
-//            finish()
-//        }
-
-
-        call.enqueue(object : Callback<NewTokenResponse> {
-            override fun onResponse(
-                call: Call<NewTokenResponse>,
-                response: Response<NewTokenResponse>
-            ) {
-                if(response.isSuccessful){
-                    val newToken = response.body()
-
-                    newToken?.refresh?.let { sharedPreference.insert(AppConstants.REFRESH_TOKEN, it) }
-                    newToken?.access?.let { sharedPreference.insert(AppConstants.ACCESS_TOKEN, it) }
-
-                    // get driver data after refresh token
-                    fetchDriver()
-
-                } else {
-                    // when logging in is failed, navigate to login screen
-                    val intent = Intent(this@MainActivity, PhoneNumberLoginActivity::class.java)
-                    startActivity(intent)
-                    finish()
-                }
-            }
-            override fun onFailure(call: Call<NewTokenResponse>, t: Throwable) {
-                Log.d("TAG.....", "onFailure: ${t.toString()}")
-            }
-
-        })
+        fetchDriver()
     }
 
     private fun fetchDriver(){

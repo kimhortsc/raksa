@@ -1,13 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application>
+
         <activity
-                android:name="center.techostartup.raksadriver.view.splashscreen.SplashScreenActivity"
+                android:name="center.techostartup.raksadriver.view.phonenumberlogin.PhoneNumberLoginActivity"
+                android:exported="false" />
+        <activity
+                android:name="center.techostartup.raksadriver.view.main.MainActivity"
+                android:exported="false" />
+
+        <activity
+                android:name="center.techostartup.raksadriver.view.loading.LoadingActivity"
                 android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+                android:name=".view.otpverification.OtpVerificationActivity"
+                android:exported="false" />
+
     </application>
+
 </manifest>
