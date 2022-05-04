@@ -1,19 +1,14 @@
 package center.techostartup.raksadriver.view.phonenumberlogin
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import center.techostartup.raksadriver.R
-import center.techostartup.raksadriver.data.local.AppSharedPreference
-import center.techostartup.raksadriver.data.remote.repository.TokenRepository
-import center.techostartup.raksadriver.data.remote.request.RefreshTokenRequest
-import center.techostartup.raksadriver.data.remote.response.NewTokenResponse
-import center.techostartup.raksadriver.utils.AppConstants
 import center.techostartup.raksadriver.utils.LoadingDialog
+import center.techostartup.raksadriver.view.base.BaseActivity
 import center.techostartup.raksadriver.view.main.MainActivity
 import center.techostartup.raksadriver.view.otpverification.OtpVerificationActivity
 import com.google.firebase.FirebaseException
@@ -21,12 +16,9 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthProvider
 import com.google.firebase.auth.PhoneAuthOptions
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 import java.util.concurrent.TimeUnit
 
-class PhoneNumberLoginActivity : AppCompatActivity() {
+class PhoneNumberLoginActivity : BaseActivity() {
     private lateinit var storedVerificationId: String
     private var number: String = ""
 

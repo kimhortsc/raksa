@@ -1,31 +1,20 @@
 package center.techostartup.raksadriver.view.main
 
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.ProgressBar
-import androidx.appcompat.app.AppCompatActivity
-import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import center.techostartup.raksadriver.R
-import center.techostartup.raksadriver.data.local.AppSharedPreference
 import center.techostartup.raksadriver.data.model.Driver
-import center.techostartup.raksadriver.data.remote.repository.TokenRepository
-import center.techostartup.raksadriver.data.remote.request.RefreshTokenRequest
-import center.techostartup.raksadriver.data.remote.response.NewTokenResponse
-import center.techostartup.raksadriver.utils.AppConstants
+import center.techostartup.raksadriver.utils.connectivity.base.ConnectivityProvider
+import center.techostartup.raksadriver.view.base.BaseActivity
 import center.techostartup.raksadriver.view.driverprofile.DriverProfileFragment
 import center.techostartup.raksadriver.view.driverprofile.DriverViewModel
 import center.techostartup.raksadriver.view.home.HomeFragment
-import center.techostartup.raksadriver.view.phonenumberlogin.PhoneNumberLoginActivity
 import center.techostartup.raksadriver.view.summary.SummaryFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import retrofit2.Call
-import retrofit2.Callback
-import retrofit2.Response
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     private lateinit var selectedFragment: Fragment
 
     private var homeFragment: HomeFragment? = null

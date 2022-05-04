@@ -13,6 +13,7 @@ import center.techostartup.raksadriver.data.remote.request.RefreshTokenRequest
 import center.techostartup.raksadriver.data.remote.request.TokenRequest
 import center.techostartup.raksadriver.utils.AppConstants
 import center.techostartup.raksadriver.utils.LoadingDialog
+import center.techostartup.raksadriver.view.base.BaseActivity
 import center.techostartup.raksadriver.view.driverprofile.DriverViewModel
 import center.techostartup.raksadriver.view.main.MainActivity
 import com.google.firebase.auth.FirebaseAuth
@@ -21,7 +22,7 @@ import com.google.firebase.auth.PhoneAuthCredential
 import com.google.firebase.auth.PhoneAuthProvider
 import com.mukesh.OtpView
 
-class OtpVerificationActivity : AppCompatActivity() {
+class OtpVerificationActivity : BaseActivity() {
     // get reference of the firebase auth
     lateinit var auth: FirebaseAuth
 

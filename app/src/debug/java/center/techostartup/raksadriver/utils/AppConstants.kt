@@ -6,4 +6,6 @@ object AppConstants {
     const val ACCESS_TOKEN = "access"
     const val REFRESH_TOKEN = "refresh"
     const val SHARED_PREFERENCE = "RaksaSharedPreference"
+    const val REACHABILITY_SERVER = "https://www.google.com"
+    const val LANDING_SERVER = BASE_URL
 }
